@@ -1,0 +1,25 @@
+/* Center all the text of the main content (excluding content in header and footer elements)
+Round the corners of the site maintainer image */
+
+
+body {
+    font-family: sans-serif;
+    background-color: #009e9e;
+}
+
+
+#rcorners {
+    border-radius: 400px;
+    /* background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat; */
+    /* padding: 20px;
+    width: 200px;
+    height: 150px; */
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}

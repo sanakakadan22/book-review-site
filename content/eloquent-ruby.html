@@ -1,0 +1,125 @@
+<!--
+    Book Review Pages
+Create a book review page for the book Eloquent Ruby by Russ Olsen in a new file eloquent-ruby.html. 
+The content for that page is provided in the content folder by the text file eloquent-ruby.txt. 
+The book review page should have the same overall structure as index.html,
+except the main content section should structure the information inside of the text file. 
+The page should also include the image of the book, included in the images folder.
+
+Use eloquent-ruby.html as a template for the other review pages for the other books
+-->
+<! Doctype Html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Book Review Pages </title>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link href="../styles/eloquent-ruby.css" rel="stylesheet">
+    <script>
+    </script>
+
+</head>
+
+<body>
+    <header>  
+        <h1>Review of Eloquent Ruby by Russ Olsen </h1>
+    </header>  
+
+    <section>
+        <nav>
+            <h1> Links for the Site </h1>
+
+            <a href="https://www.facebook.com/sana.pournaghshband.22/">
+                <img alt="Fb Logo" src="../images/logo-facebook.png"/>
+            </a>
+
+            <a href="https://twitter.com/sana_p22">
+                <img alt="Twitter Logo" src="../images/logo-twitter.png"/>
+            </a>
+
+            <a href="https://sanakakadan22.wixsite.com/website">My Website!
+            
+            </a>
+        </nav>
+    </section>
+
+ 
+    <section>
+        <main>
+            <h1>Book #1 - Eloquent Ruby</h1> 
+            
+            <ul>
+                <li>Author:  Russ Olsen</li>
+                <li>E-mail:
+                    <a href="mailto:russ@russolsen.com">russ@russolsen.com</a>
+                </li>
+                <li>Twitter:  
+                    <a href="http://twitter.com/russolsen"> @russolsen </a>
+                </li>
+                <li> Website:
+                    <a href="http://eloquentruby.com/"> http://eloquentruby.com/</a>
+                </li>
+                <li>Format:  Paperback, 413 pages</li>
+                <li>Publication Date: February 21st 2011</li>
+                <li>Publisher:  Addison-Wesley Professional</li>
+                <li>Price:  $38.63</li>
+                <li>ISBN: 860-1300202396</li>
+            </ul>
+
+
+            <a href="https://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104">
+                <img alt="cover of eloquent ruby" src="../images/cover-eloquent_ruby.jpg"/>
+            </a>
+                
+
+        </main>
+    </section>
+
+    <section>
+        <h2>Description:</h2>
+            <p>
+                It s easy to write correct Ruby code, but to gain the fluency needed to write great Ruby code, you must go beyond syntax and absorb the Ruby way of thinking and problem solving. In Eloquent Ruby, Russ Olsen helps you write Ruby like true Rubyists do so you can leverage its immense, surprising power. Olsen draws on years of experience internalizing the Ruby culture and teaching Ruby to other programmers. He guides you to the Ah Ha! moments when it suddenly becomes clear why Ruby works the way it does, and how you can take advantage of this language s elegance and expressiveness. Eloquent Ruby starts small, answering tactical questions focused on a single statement, method, test, or bug. You ll learn how to write code that actually looks like Ruby (not Java or C#); why Ruby has so many control structures; how to use strings, expressions, and symbols; and what dynamic typing is really good for. Next, the book addresses bigger questions related to building methods and classes. You ll discover why Ruby classes contain so many tiny methods, when to use operator overloading, and when to avoid it. Olsen explains how to write Ruby code that writes its own code and why you ll want to. He concludes with powerful project-level features and techniques ranging from gems to Domain Specific Languages. A part of the renowned Addison-Wesley Professional Ruby Series, Eloquent Ruby will help you put on your Ruby-colored glasses and get results that make you a true believer."
+            </p>
+    </section>
+
+    <section class="review">
+        <h3>Review #1 Title: </h3> 
+            <p> The first Ruby book I read in full within 24 hours</p>
+        <h3>Reviewer #1: </h3>
+            <p> Peter Cooper</p>
+        <h3>Review #1 Date:</h3>
+            <p> February 26, 2011</p>
+        <h3>Review #1:</h3>
+            <p>
+                It s easy to write correct Ruby code, but to gain the fluency needed to write great Ruby code, you must go beyond syntax and absorb the Ruby way of thinking and problem solving. In Eloquent Ruby, Russ Olsen helps you write Ruby like true Rubyists do so you can leverage its immense, surprising power. Olsen draws on years of experience internalizing the Ruby culture and teaching Ruby to other programmers. He guides you to the Ah Ha! moments when it suddenly becomes clear why Ruby works the way it does, and how you can take advantage of this language s elegance and expressiveness. Eloquent Ruby starts small, answering tactical questions focused on a single statement, method, test, or bug. You ll learn how to write code that actually looks like Ruby (not Java or C#); why Ruby has so many control structures; how to use strings, expressions, and symbols; and what dynamic typing is really good for. Next, the book addresses bigger questions related to building methods and classes. You ll discover why Ruby classes contain so many tiny methods, when to use operator overloading, and when to avoid it. Olsen explains how to write Ruby code that writes its own code and why you ll want to. He concludes with powerful project-level features and techniques ranging from gems to Domain Specific Languages. A part of the renowned Addison-Wesley Professional Ruby Series, Eloquent Ruby will help you put on your Ruby-colored glasses and get results that make you a true believer."
+            </p>
+    </section>
+
+    <section class="review">
+        <h3>Review #2 Title:  Eloquent Olsen</h3> 
+            <p> The first Ruby book I read in full within 24 hours</p>
+        <h3>Reviewer #2:  Fogus</h3>
+            <p> Peter Cooper</p>
+        <h3>Review #2 Date:  March 7, 2011</h3>
+            <p> February 26, 2011</p>
+        <h3>Review #2:</h3>
+        <p id="line"> 
+            For better or worse the vast majority of my work life journey has been travelled with Java as my vehicle of expression. However, by nature I have a burning desire to learn new languages and at one point or another I discovered Russ Olsen's (also the author of Eloquent Ruby) "Design Patterns in Ruby". Having at one time counted myself as a true-believer in everything pattern-esque, I was excited for the opportunity to learn Ruby under the aegis of The Gang of Four. However, what I found was something else entirely. I absolutely loved "Design Patterns in Ruby" for reasons that I was not expecting. That is, what I found was an extremely interesting book that was playful and as a nice side-effect *actually taught me how Ruby's powerful features make many design patterns unnecessary*.
+            
+            Olsen, with his latest effort has mastered the art of writing a book that is extremely interesting, fun, and informative. As an author myself, I greatly admire the ability in other authors to take what many would consider dry and bland, a programming language book, and create something that is truly special. Let me not give the impression that "Eloquent Ruby" is filled with fluff however; on the contrary, of any Ruby book that I've read I have learn the most from Mr. Olsen's masterpiece.
+            
+            "Eloquent Ruby" is written for the programmer like me: someone with previous programming experience, but with only a passing understanding of Ruby itself. The structure of the book will help guide the Ruby neophyte toward a stronger understanding of not only the language constructs and idioms, but also the Ruby culture. As an outsider to said culture, I've always viewed the Ruby community as merely a collection of characters, but Olsen's book helps to illustrate that (almost universally) Ruby practitioners first and foremost strive to create correct and robust solutions. As a proponent of the Lisp family of languages, I tend to look askance at languages falling into the ALGOL family, but "Eloquent Ruby" has succeeded in convincing me that with the right approach and mindset then Ruby can be a stunningly beautiful language. And this is really the key point to take away from Mr. Olsen's book. That is, he guides the reader through the Ruby mindset to drive home the point that Ruby's features -- from its powerful and fluent blocks and modules, to the mind-bending metaprogramming facilities, to its to its humble symbol, and through its philosophy of "Objects all the way down" -- play together in such a way as to foster ... well, elegance.
+            
+            The highlight of the book is of course its dénouement that succeeds in pulling together all of the lessons presented throughout the book into explaining the role that Domain-Specific Languages (DSL) serve in solving programming problems with Ruby. I can't possibly do justice in summarizing this important technique, but the punch-line is that Ruby's features foster the creation of powerful and expressive DSLs used to simplify the development of complex solutions by allowing the language itself to be molded into a form that is highly expressive to said solution! It takes a while to see the power in this technique, but "Eloquent Ruby" makes a compelling case indeed.
+            
+            Russ Olsen has helped me to gain more experience points in Ruby, and I must say that I am excited to learn more. If you too wish to learn more about Ruby, then you would be hard-pressed to find a better book than "Eloquent Ruby" in helping you to do so.
+        </p>
+
+    </section>
+
+    <footer>
+        @Copyright Sana Pournaghshband 2022- All Right Reserved.   
+    </footer>  
+</body>
+</html>
